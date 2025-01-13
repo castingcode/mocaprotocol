@@ -8,7 +8,12 @@ tasks:
       - go test -v ./...
 
   test-cover:
-    desc: Run tests with coverage output
+    desc: Run tests with coverage
+    cmds:
+      - go test -v ./... -covermode=count -coverprofile=coverage.out
+
+  test-cover-report:    
+    desc: Run tests with coverage report
     cmds:
       - go test -v ./... -covermode=count -coverprofile=coverage.out
       - go tool cover -html=coverage.out -o coverage.html

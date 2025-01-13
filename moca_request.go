@@ -22,3 +22,11 @@ type Var struct {
 	Name  string `xml:"name,attr"`
 	Value string `xml:"value,attr"`
 }
+
+func NewMocaRequest(query string, vars ...Var) MocaRequest {
+	return MocaRequest{
+		Autocommit:  "true",
+		Query:       Query{Text: query},
+		Environment: Environment{Vars: vars},
+	}
+}

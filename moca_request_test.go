@@ -95,3 +95,26 @@ func TestMocaRequest_DeserializeNoEnvironment(t *testing.T) {
 	is.Equal(want.Query.Text, got.Query.Text)
 	is.Equal(want.Environment.Vars, got.Environment.Vars)
 }
+
+func TestNewMocaRequest(t *testing.T) {
+	is := is.New(t)
+	want := MocaRequest{
+		Autocommit: "true",
+		Query: Query{
+			Text: `set return status where status = 9 and message = "hello"`,
+		},
+		Environment: Environment{
+			Vars: []Var{
+				{Name: "USR_ID", Value: "SUPER01"},
+				{Name: "LOCALE_ID", Value: "US_ENGLISH"},
+				{Name: "SESSION_KEY", Value: "srv26-dev;uid=SUPER01|sid=7706a9f7-4954-48f9-83c5-01d0c7bd59bb|dt=luv9fp8k|sec=ALL;ZAofk27.c7mjtHb1VPyShjoKH2"},
+			},
+		},
+	}
+	got := NewMocaRequest(`set return status where status = 9 and message = "hello"`,
+		Var{Name: "USR_ID", Value: "SUPER01"},
+		Var{Name: "LOCALE_ID", Value: "US_ENGLISH"},
+		Var{Name: "SESSION_KEY", Value: "srv26-dev;uid=SUPER01|sid=7706a9f7-4954-48f9-83c5-01d0c7bd59bb|dt=luv9fp8k|sec=ALL;ZAofk27.c7mjtHb1VPyShjoKH2"},
+	)
+	is.Equal(want, got)
+}
