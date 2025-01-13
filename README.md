@@ -1,6 +1,7 @@
 # MOCA Protocol
 
-[![ci](https://github.com/castingcode/mocaprotocol/actions/workflows/ci.yml/badge.svg)](https://github.com/castingcode/mocaprotocol/actions/workflows/ci.yml)
+[![Tests](https://github.com/castingcode/mocaprotocol/actions/workflows/ci-test.yml/badge.svg)](https://github.com/castingcode/mocaprotocol/actions/workflows/ci-test.yml)
+
 
 This Go module encapsulates the format for a request and response for a MOCA command.
 
