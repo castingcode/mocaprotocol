@@ -1,6 +1,7 @@
 # MOCA Protocol
 
 [![Tests](https://github.com/castingcode/mocaprotocol/actions/workflows/ci-test.yml/badge.svg)](https://github.com/castingcode/mocaprotocol/actions/workflows/ci-test.yml)
+[![codecov](https://codecov.io/gh/castingcode/mocaprotocol/graph/badge.svg?token=C7EUFCEHED)](https://codecov.io/gh/castingcode/mocaprotocol)
 [![Go Report Card](https://goreportcard.com/badge/github.com/castingcode/mocaprotocol)](https://goreportcard.com/report/github.com/castingcode/mocaprotocol)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/castingcode/mocaprotocol/badge)](https://scorecard.dev/viewer/?uri=github.com/castingcode/mocaprotocol)
 
