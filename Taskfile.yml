@@ -10,10 +10,10 @@ tasks:
   test-cover:
     desc: Run tests with coverage
     cmds:
-      - go test -v ./... -covermode=count -coverprofile=coverage.out
+      - go test -v ./... -covermode=atomic -coverprofile=coverage.out
 
   test-cover-report:    
     desc: Run tests with coverage report
     cmds:
-      - go test -v ./... -covermode=count -coverprofile=coverage.out
+      - go test -v ./... -covermode=atomic -coverprofile=coverage.out
       - go tool cover -html=coverage.out -o coverage.html
