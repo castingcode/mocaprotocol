@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<moca-response>
+    <session-id></session-id>
+    <status>531</status>
+    <message>Groovy Script Exception: groovy.lang.MissingMethodException: No signature of method: java.lang.String.call() is applicable for argument types: (java.lang.String) values: [ADJS]
+Possible solutions: wait(), chars(), any(), wait(long), split(java.lang.String), take(int)</message>
+</moca-response>

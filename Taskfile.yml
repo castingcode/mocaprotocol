@@ -1,0 +1,14 @@
+version: '3'
+
+tasks:
+
+  test: 
+    desc: Run tests with story output
+    cmds:
+      - go test -v ./...
+
+  test-cover:
+    desc: Run tests with coverage output
+    cmds:
+      - go test -v ./... -covermode=count -coverprofile=coverage.out
+      - go tool cover -html=coverage.out -o coverage.html

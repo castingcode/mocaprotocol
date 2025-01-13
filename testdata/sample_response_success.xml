@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<moca-response>
+    <session-id></session-id>
+    <status>0</status>
+    <moca-results>
+        <metadata>
+            <column name="wh_id" type="S" length="32" nullable="false"/>
+            <column name="adr_id" type="S" length="20" nullable="false"/>
+            <column name="def_wh_flg" type="I" length="4" nullable="true"/>
+            <column name="wh_typ_cd" type="S" length="8" nullable="false"/>
+            <column name="lens_sitnam" type="S" length="40" nullable="true"/>
+            <column name="lens_customer_id" type="S" length="20" nullable="true"/>
+            <column name="lens_cust_client_id" type="S" length="32" nullable="true"/>
+            <column name="lens_ena_flg" type="I" length="4" nullable="true"/>
+            <column name="dflt_hldpfx" type="S" length="32" nullable="true"/>
+            <column name="orgcod" type="S" length="25" nullable="true"/>
+            <column name="perm_cre_lod" type="S" length="30" nullable="true"/>
+            <column name="perm_adj_lod" type="S" length="30" nullable="true"/>
+            <column name="perm_cre_sub" type="S" length="30" nullable="true"/>
+            <column name="perm_adj_sub" type="S" length="30" nullable="true"/>
+            <column name="moddte" type="D" length="14" nullable="true"/>
+            <column name="mod_usr_id" type="S" length="40" nullable="true"/>
+            <column name="sgln" type="S" length="40" nullable="true"/>
+            <column name="rfid_ena_flg" type="I" length="4" nullable="true"/>
+            <column name="trans_wh_id" type="S" length="32" nullable="true"/>
+            <column name="auto_play_cst_thr" type="F" length="8" nullable="true"/>
+            <column name="cnt_thr_unit" type="I" length="4" nullable="true"/>
+            <column name="cnt_thr_cst" type="F" length="8" nullable="true"/>
+            <column name="u_version" type="I" length="4" nullable="true"/>
+            <column name="ins_dt" type="D" length="14" nullable="true"/>
+            <column name="last_upd_dt" type="D" length="14" nullable="true"/>
+            <column name="ins_user_id" type="S" length="40" nullable="true"/>
+            <column name="last_upd_user_id" type="S" length="40" nullable="true"/>
+            <column name="aisle_max" type="I" length="4" nullable="true"/>
+            <column name="bay_max" type="I" length="4" nullable="true"/>
+            <column name="slot_max" type="I" length="4" nullable="true"/>
+            <column name="concat_order" type="I" length="4" nullable="true"/>
+            <column name="recalc_dist_flag" type="I" length="4" nullable="true"/>
+            <column name="recalc_date" type="D" length="14" nullable="true"/>
+            <column name="last_regen_time" type="S" length="20" nullable="true"/>
+            <column name="wmp_left_x" type="I" length="4" nullable="true"/>
+            <column name="wmp_right_x" type="I" length="4" nullable="true"/>
+            <column name="wmp_upper_y" type="I" length="4" nullable="true"/>
+            <column name="wmp_lower_y" type="I" length="4" nullable="true"/>
+            <column name="active" type="I" length="4" nullable="true"/>
+            <column name="crncy_code" type="S" length="4" nullable="true"/>
+            <column name="lst_rttn_id" type="S" length="10" nullable="true"/>
+            <column name="rttn_id_min_value" type="S" length="7" nullable="true"/>
+            <column name="rttn_id_max_value" type="S" length="7" nullable="true"/>
+            <column name="adj_thr_cst" type="F" length="8" nullable="true"/>
+            <column name="adj_thr_unit" type="I" length="4" nullable="true"/>
+            <column name="cnsg_cod" type="S" length="20" nullable="true"/>
+            <column name="cnsg_period" type="I" length="4" nullable="true"/>
+            <column name="colnam" type="S" length="100" nullable="true"/>
+            <column name="colval" type="S" length="200" nullable="true"/>
+            <column name="locale_id" type="S" length="20" nullable="true"/>
+            <column name="lngdsc" type="S" length="2000" nullable="true"/>
+            <column name="short_dsc" type="S" length="20" nullable="true"/>
+            <column name="grp_nam" type="S" length="40" nullable="true"/>
+            <column name="dtype" type="S" length="31" nullable="true"/>
+            <column name="longdsc" type="S" length="2000" nullable="true"/>
+        </metadata>
+        <data>
+            <row>
+                <field>WMD1</field>
+                <field>ADR001</field>
+                <field>1</field>
+                <field>EMPTY</field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field>0</field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field>WMD1-PERM-CRE-LOD</field>
+                <field>WMD1-PERM-ADJ-LOD</field>
+                <field>WMD1-PERM-CRE-SUB</field>
+                <field>WMD1-PERM-ADJ-SUB</field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field>0</field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field>1</field>
+                <field null="true"></field>
+                <field>20190709141727</field>
+                <field null="true"></field>
+                <field>LSEXTON</field>
+                <field>3</field>
+                <field>2</field>
+                <field>2</field>
+                <field>1</field>
+                <field>0</field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field>0</field>
+                <field>2400</field>
+                <field>0</field>
+                <field>2400</field>
+                <field>1</field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field>0.0</field>
+                <field>0</field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field>wh_id</field>
+                <field>WMD1</field>
+                <field>US_ENGLISH</field>
+                <field>WMD1</field>
+                <field>WMD1</field>
+                <field>lm_data</field>
+                <field null="true"></field>
+                <field>WMD1</field>
+            </row>
+            <row>
+                <field>WMD2</field>
+                <field>ADR001</field>
+                <field>0</field>
+                <field>EMPTY</field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field>0</field>
+                <field>EVAN</field>
+                <field null="true"></field>
+                <field>WMD2-PERM-CRE-LOD</field>
+                <field>WMD2-PERM-ADJ-LOD</field>
+                <field>WMD2-PERM-CRE-SUB</field>
+                <field>WMD2-PERM-ADJ-SUB</field>
+                <field>20170623101017</field>
+                <field>SUPER</field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field>1</field>
+                <field>20170623101017</field>
+                <field>20170623101017</field>
+                <field>SUPER</field>
+                <field>SUPER</field>
+                <field>0</field>
+                <field>0</field>
+                <field>0</field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field>0</field>
+                <field>0</field>
+                <field>0</field>
+                <field>0</field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field null="true"></field>
+                <field>wh_id</field>
+                <field>WMD2</field>
+                <field>US_ENGLISH</field>
+                <field>WMD2 Warehouse</field>
+                <field>WMD2</field>
+                <field>dcs_data</field>
+                <field null="true"></field>
+                <field>WMD2 Warehouse</field>
+            </row>
+        </data>
+    </moca-results>
+</moca-response>
